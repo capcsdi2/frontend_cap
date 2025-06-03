@@ -111,3 +111,5 @@ const ChatBox = ({ isOpen, onClose }: ChatBoxProps) => {
     </Box>
   )
 }
+
+export default ChatBox
