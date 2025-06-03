@@ -53,7 +53,7 @@ const ChatBox = ({ isOpen, onClose }: ChatBoxProps) => {
       bg="white"
       borderRadius="md"
       boxShadow="lg"
-      zIndex={1000}
+      zIndex={9999}
     >
       <Flex direction="column" h="100%">
         <Flex
@@ -111,5 +111,3 @@ const ChatBox = ({ isOpen, onClose }: ChatBoxProps) => {
     </Box>
   )
 }
-
-export default ChatBox

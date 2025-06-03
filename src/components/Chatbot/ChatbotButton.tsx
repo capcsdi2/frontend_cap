@@ -18,7 +18,7 @@ const ChatbotButton = () => {
         size="lg"
         colorScheme="teal"
         onClick={() => setIsOpen(!isOpen)}
-        zIndex={1000}
+        zIndex={9999}
       />
       <ChatBox isOpen={isOpen} onClose={() => setIsOpen(false)} />
     </>
